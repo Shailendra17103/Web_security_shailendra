@@ -1,0 +1,25 @@
+<!-- index.html (Home Page) -->
+<h1>Welcome to the Web Security Project</h1>
+<a href="/login">Login</a> | <a href="/register">Register</a>
+
+<!-- login.html (Login Page) -->
+<form method="post">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+</form>
+
+<!-- register.html (Registration Page) -->
+<form method="post">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit">Register</button>
+</form>
+
+<!-- dashboard.html (Dashboard) -->
+<h1>Dashboard</h1>
+<p>Welcome!</p>
+<a href="/logout">Logout</a>
+
+
+
